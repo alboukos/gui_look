@@ -1,0 +1,15 @@
+import tkinter as tk
+
+root = tk.Tk()
+
+# Δημιουργία του πλαισίου αποτελεσμάτων
+
+lower_frame = tk.Frame(root, bg='#0086b3', bd=15)
+lower_frame.place(relx=0.5, rely=0.25, relwidth=0.75, relheight=0.6, anchor='n')
+
+# Το μήνυμα οπου θα εμφανίζει 
+
+result = tk.Label(lower_frame, font=('Russo One', 9), text="Your Results Will Be Displayed Here:")
+result.place(relwidth=1, relheight=1)
+    
+root.mainloop()
