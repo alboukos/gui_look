@@ -1,0 +1,11 @@
+import tkinter as tk
+
+root = tk.Tk()
+
+# Φόντο της Εφαρμογής 
+
+background_image = tk.PhotoImage(file="twitter.png") # Η εικόνα 'twitter.png' είναι αποθηκευμένη στον φάκελο οπου βρίσκεται το αρχείο με τον κώδικα Python 
+background_label = tk.Label(root, image=background_image)
+background_label.place(relwidth=1, relheight=1)
+
+root.mainloop()
