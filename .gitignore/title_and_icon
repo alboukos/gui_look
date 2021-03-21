@@ -4,6 +4,6 @@ root = tk.Tk()
 
 # Τίτλος και Εικόνα
 root.title('Live Tweet Streamer')
-root.iconbitmap('twitter.ico') # Η εικόνα 'twitter.ico' είναι αποθηκευμένη στον φάκελο οπου βρίσκεται ο κώδικας Python
+root.iconbitmap('twitter.ico') # Η εικόνα 'twitter.ico' είναι αποθηκευμένη στον φάκελο οπου βρίσκεται το αρχείο με τον κώδικα Python
 
 root.mainloop()
