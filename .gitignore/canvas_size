@@ -1,11 +1,10 @@
 import tkinter as tk
 
-HEIGHT = 765
-WIDTH = 1024
-
 root = tk.Tk()
 
-canvas = tk.Canvas(root, height=HEIGHT, width=WIDTH)
+# Δημιουργία του παραθύρου
+
+canvas = tk.Canvas(root, height=765, width=1024)
 canvas.pack()
 
 root.mainloop()
